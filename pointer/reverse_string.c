@@ -22,7 +22,7 @@ void reverse_string(char *string)
 int main()
 {
 
-	char str[1024] = "Hello,World";
+	char str[1024] = "";
 	reverse_string(str);
 	printf("%s\n", str);
 	return 0;		
